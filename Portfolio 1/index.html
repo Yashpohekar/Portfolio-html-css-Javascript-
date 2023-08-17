@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <script src="script.js"></script>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>YasH</h1>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <p>I'm passionate about bringing forward great products.</p>
+                <div class="social-media">
+                    <a href="#"><i class='bx bxl-facebook-square'></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                </div>
+                <a href="1.png" class="btn" download>Downloadcv</a>
+        </div>
+        <div class="home-img">
+            <img src="11.png">
+        </div>
+    </section>
+
+   <section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+
+    <div class="skills">
+        <div>
+            <label for="file">Html </label>
+            <progress id="file" value="92" max="100">90%</progress>
+        </div>
+        <br><br>
+        <div>
+            <label for="file">Css </label>
+            <progress id="file" value="80" max="100">70%</progress>
+        </div>
+        <br><br>
+        <div>
+            <label for="file">Java Script </label>
+            <progress id="file" value="60" max="100">50%</progress>
+        </div>
+    </div>
+
+   </section>
+
+
+   <section class="portfolio" id="portfolio">
+    <h2 class="heading">Lastest <span>Project</span></h2>
+    <div class="portfolio-content">
+        <div class="portfolio-box">
+            <img src="100.png" >
+            <div class="portfolio-layer">
+                <h4>Calculater</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <a href="https://calculater-1.netlify.app/"><i class="bx bx-link-external" ></i></a>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+            <input type="number" placeholder="Mobile nNumber">
+            <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+   </section>
+   
+   <footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2023 by YasH | All Rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+   </footer>
+
+   <script src="https://unpkg.com/scrollreveal"></script>
+
+   <!-- typed js  -->
+   <script src="https://cdn.jsdeliver.net/npm/typed.js@2.0.12"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
